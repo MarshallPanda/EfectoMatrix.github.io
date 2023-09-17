@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://fondosmil.com/fondo/54333.jpg'); /* Cambia la URL de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Courier New', monospace;
+    height: 100vh;
+    overflow: hidden; /* Evita la barra de desplazamiento vertical */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-container {
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo transparente */
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px; /* Ancho fijo */
+}
+
+.matrix-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: green; /* Color de los caracteres de Matrix */
+    font-size: 20px; /* Tamaño de fuente de los caracteres */
+    pointer-events: none; /* Evita que los caracteres interfieran con la interacción del usuario */
+}
+
+.matrix-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.matrix-column {
+    margin: 2px;
+}
